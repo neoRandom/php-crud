@@ -109,8 +109,8 @@ INSERT INTO `livro` (`cod_livro`, `titulo`, `categoria`, `ISBN`, `idioma`, `qtde
 --
 
 CREATE TABLE `usuario` (
-  `nome` varchar(32) NOT NULL COMMENT 'Não deve ter menos de 3 caracteres.\r\nApenas letras, maiúsculas ou minúsculas, do alfabeto romano, além de números do sistema de numeração decimal tradicional e o ponto final (valor 46 da tabela ascii).',
-  `senha` varchar(32) NOT NULL COMMENT 'Não deve ter menos de 8 caracteres.\r\nDeve conter pelo menos um dos seguintes caracteres: !, @, #, $, %, ¨, &, *, (, ).\r\nNão pode conter aspas simples ou duplas, apóstrofo ou barra invertida.'
+  `nome` varchar(32) NOT NULL COMMENT 'Não deve ter menos de 3 caracteres.',
+  `senha` varchar(32) NOT NULL COMMENT 'Não deve ter menos de 8 caracteres.\r\nNão pode conter aspas simples ou duplas, apóstrofo ou barra invertida.'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --

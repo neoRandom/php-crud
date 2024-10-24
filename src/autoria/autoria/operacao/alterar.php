@@ -138,13 +138,13 @@
                 <!-- Botões -->
                 <div class="relative">
                     <?php if(isset($btnenviar)) { ?>
-                        <?php echo createButton("btnalterar", "Alterar") ?>
+                        <?php echo createSubmitButton("btnalterar", "Alterar") ?>
 
                         <button name="reconsultar" type="submit" class="absolute right-2 h-full -translate-y-[100%] hover:underline">
                             Reconsultar
                         </button>
                     <?php } else { ?>
-                        <?php echo createButton("btnenviar", "Consultar") ?>
+                        <?php echo createSubmitButton("btnenviar", "Consultar") ?>
 
                         <button name="limpar" type="reset" class="absolute right-2 h-full -translate-y-[100%] hover:underline">
                             Limpar

@@ -24,12 +24,12 @@
             hover:*:*:border-gray-300 hover:*:*:shadow-md 
             ">
             <li>
-                <a href="./autoria">
+                <a href="./autoria/login.php">
                     Autoria
                 </a>
             </li>
             <li>
-                <a href="./produto">
+                <a href="./produto/login.php">
                     Produto
                 </a>
             </li>

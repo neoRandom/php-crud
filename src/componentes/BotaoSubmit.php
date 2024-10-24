@@ -1,5 +1,5 @@
 <?php 
-    function createButton($name, $value) {
+    function createSubmitButton($name, $value) {
         return '
             <button 
                 name="' . $name . '" 
